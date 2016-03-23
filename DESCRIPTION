@@ -3,8 +3,9 @@ Title: Create a Nice Web Page About Your GitHub Repositories
 Version: 1.0.0
 Author: Gabor Csardi
 Maintainer: Gabor Csardi <gcsardi@mango-solutions.com>
-Description: This is a static website generator, specialized on creating a single page web
-  site about GitHub repositories, for an account or organization.
+Description: This is a static website generator, specialized on creating a
+    single page web site about GitHub repositories, for an account or
+    organization.
 License: MIT + file LICENSE
 LazyData: true
 URL: https://github.com/MangoTheCat/myghrepos
