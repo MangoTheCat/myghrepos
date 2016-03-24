@@ -1,0 +1,36 @@
+
+{{# groups }}
+
+  <h2 class="group-name">{{ name }}</h2>
+
+  <hr class="group-separator">
+
+  {{# description }}
+    <p class="group-description">{{ description }}</p>
+  {{/ description}}
+
+  {{# contents }}
+
+    <div class="badges">
+      <span><a href="http://www.r-pkg.org/pkg/{{ package }}">
+	<img src="http://www.r-pkg.org/badges/version/{{ package }}">
+      </a></span>
+      <span><a href="http://www.r-pkg.org/pkg/{{ package }}">
+	  <img src="http://cranlogs.r-pkg.org/badges/{{ package }}">
+      </a></span>
+    </div>
+
+    <a id="{{ package }}"></a>
+    <a href="https://github.com/{{ org }}/{{ package }}#readme">
+      <h3 class="package-title">{{ package }}</h3>
+    </a>
+
+    {{# contents }}
+    <p class="description">{{ description }}</p>
+    <p class="description-file">{{ description-file }}</p>
+    <p class="last-updated">Last updated: {{ pushed_at }}.</p>
+    {{/ contents }}
+
+  {{/ contents }}
+
+{{/ groups }}
