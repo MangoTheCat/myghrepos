@@ -2,7 +2,7 @@
 
 export(myghrepos)
 export(repo_group)
-importFrom(description,description)
+importFrom(desc,description)
 importFrom(gh,gh)
 importFrom(httr,GET)
 importFrom(httr,content)

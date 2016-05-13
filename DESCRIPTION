@@ -12,12 +12,10 @@ URL: https://github.com/MangoTheCat/myghrepos
 BugReports: https://github.com/MangoTheCat/myghrepos/issues
 RoxygenNote: 5.0.1
 Imports:
-    description,
+    desc,
     gh,
     httr,
     whisker
 Suggests: 
     testthat
-Remotes:
-    metacran/description,
-    gaborcsardi/gh
+Remotes: gaborcsardi/gh

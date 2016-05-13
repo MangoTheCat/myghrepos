@@ -45,7 +45,7 @@ repo_group <- function(name, description = NULL, repos) {
 }
 
 #' @importFrom httr GET status_code content
-#' @importFrom description description
+#' @importFrom desc description
 
 get_desc_desc <- function(org, repo) {
   url <- sprintf(
